@@ -1,0 +1,180 @@
+/*****************************************************************THE SECTION BELOW IS TEH STYLING FOR THE INDEX PAGE*************/
+
+
+#indexhead {
+  font-family: helvetica;
+  font-size: 40px;
+  padding-left: 38px;
+  padding-top: 150px;
+
+}
+
+.imagelink {
+  max-width: 100%;
+  width: 30%;
+  float: left;
+
+}
+
+.titleimage {border-radius: 50%;}
+
+
+figcaption {font-family: 'roboto_condensedregular', Helvetica, sans-serif; font-size: 22px; text-align: center;}
+
+
+
+/*****************************************************************************
+EVERYTHING BELOW HERE IS THE CODE FOR THE WOMENS' PAGES
+*****************************************************************************/
+
+
+
+/*****************************************************************************
+SECTION BELOW HAS CODE FOR STYLE IN THE HEADER
+*****************************************************************************/
+
+
+header {
+  height: 310px;
+  overflow: hidden;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  font-size: 40px;
+  font-family: helvetica;
+  padding-left: 38px;
+  padding-top: 150px;
+}
+
+h2 {
+  font-family: helvetica;
+  padding: 38px;
+  padding-top: 230px;
+  font-size: 38px;
+  padding-bottom: 20px;
+}
+
+
+/*****************************************************************************
+SECTION BELOW HAS THE CODE FOR THE BASIC PRESENTATION
+*****************************************************************************/
+
+
+#wrapper {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  font-family: helvetica;
+  font-size: 20px;
+  
+}
+
+h3:hover {
+  color: #751aff;
+}
+
+p, li {
+  font-family: 'roboto_condensedregular', 'helvetica';
+  font-size: 16px;
+  padding-left: 0;
+  margin-left:0
+}
+
+#ulist {
+  list-style-type: none;
+  font-family: helvetica;
+  font-size: 16px;
+  margin-left: 0;
+  padding-left:0;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  font-family: helvetica;
+  text-align: center;
+  padding: 10px;
+}
+
+#block {
+
+  padding-right: 10px;
+}
+
+#return {
+  font-family: helvetica;
+  font-size: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:visited {
+  text-decoration: underline;
+  color: purple;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+
+
+/******************************************************************************
+THIS SECTION ISN'T DOING ANYTHING BECAUSE I COMMENTED OUT THE FIGCAPTION
+figcaption {
+  font-family: helvetica;
+  font-size: 10px;
+  text-align: center;
+}
+******************************************************************************/
+
+
+
+
+/*****************************************************************************
+SECTION BELOW HAS CODE FOR MEDIA QUERIES
+*****************************************************************************/
+
+
+@media screen and (min-width: 700px) {
+  #image {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #image {
+    width: 50%;
+    float: left;
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  #content {
+    width: 50%;
+    float: right;
+    padding-left: 0;
+  }
+
+  #colophon {
+    clear: both
+  }
+
+  
+}
