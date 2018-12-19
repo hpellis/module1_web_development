@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <title>BT Data Plans</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css\style.css" />
+</head>
+
+<body>
+  <!--navigation bar with dropdown menu on BT Mobile fr data plans -->
+  <!--Logo added here-->
+  <header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images\bt-logo.png" alt="BT Company Logo." width="100" height="auto" />
+        </a>
+
+        <!--Mobile friendly hamburger button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.productsandservices.bt.com/broadband/">BT Broadband</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                BT Mobile
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="solo-surfer.html">Solo Surfer</a>
+                <a class="dropdown-item" href="chatterbox.html">Chatterbox</a>
+                <a class="dropdown-item" href="family.html">Family</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Mission statement-->
+
+  <div id="mission" class="jumbotron">
+    <div class="container">
+      <h2 class="display-3">Making complex things clear</h2>
+      <p class="lead"><strong>We aim to make sure that everything you require from us is simple to get with no hassle</strong></p>
+      <a href="#" class="btn btn-primary">Learn more</a>
+    </div>
+  </div>
+
+  <!--Main part of the homepage introducting data plan links-->
+  <!--Data Plan links-->
+
+  <div id="content" class="container text-center">
+
+    <h1 class="display-1">Data Plans</h1>
+
+    <!--Lone Wolf Intro Link-->
+    <figure>
+      <a href="solo-surfer.html">
+        <h2 class="plan-name">Solo Surfer</h2>
+        <img src="images\lonewolf-crop.jpeg" alt="A woman on a bench checking with her phone." class="index-image" />
+      </a>
+      <figcaption>From £15, you can choose a data only plan from as little as 3GB.</figcaption>
+    </figure>
+
+    <!--Chatterbox Intro Link-->
+    <figure>
+      <a href="chatterbox.html">
+        <h2 class="plan-name">Chatterbox</h2>
+        <img src="images\chatterbox-crop.jpeg" alt="A mature man laughing while talking on his phone." class="index-image" />
+      </a>
+      <figcaption>From £14, get data, minutes and texts with aalerts when you go over your limit each month. </figcaption>
+    </figure>
+
+    <!--Family Intro Link-->
+    <figure>
+      <a href="family.html">
+        <h2 class="plan-name">Family</h2>
+        <img src="images\family-crop.jpeg" alt="A family huddled around a phone smiling and laughing." class="index-image" />
+      </a>
+      <figcaption>Starting from £14 per person, add five members of your family to this plan.</figcaption>
+    </figure>
+  </div>
+
+  <!--Social Media Section-->
+  <div id="social">
+
+
+    <div id="social-buttons" class="container">
+      <a href="" class="btn btn-primary btn-lg btn-twitter">Twitter</a>
+      <a href="" class="btn btn-primary btn-lg btn-facebook">Facebook</a>
+      <a href="" class="btn btn-primary btn-lg btn-pinterest">Pinterest</a>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <div id="footer-background">
+    <footer id="footer" class="container">
+      <ul id="left-footer">
+        <li>
+          <a href="#">
+            <p>Home</p>
+          </a>
+        </li>
+        <li>
+          <p>
+            &#169; Copyright 2018
+          </p>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images\bt-logo.png" alt="BT Company Logo." width="100" height="auto" />
+          </a>
+        </li>
+      </ul>
+
+      <ul id="right-footer">
+        <li>
+          <a href="#">
+            <p>Sitemap</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <p>Contact</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <p>Privacy</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <p>Terms Of Use</p>
+          </a>
+        </li>
+      </ul>
+
+
+    </footer>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

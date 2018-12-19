@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <title>BT Data Plans</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css\style.css" />
+</head>
+
+<body>
+  <!--navigation bar with dropdown menu on BT Mobile fr data plans -->
+  <!--Logo added here-->
+  <header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images\bt-logo.png" alt="BT Company Logo." width="100" height="auto" />
+        </a>
+
+        <!--Mobile friendly hamburger button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.productsandservices.bt.com/broadband/">BT Broadband</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                BT Mobile
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="solo-surfer.html">Solo Surfer</a>
+                <a class="dropdown-item" href="#">Chatterbox</a>
+                <a class="dropdown-item" href="family.html">Family</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Mission statement-->
+
+  <div id="mission" class="jumbotron">
+    <div class="container">
+      <h2 class="display-3">Making complex things clear</h2>
+      <p class="lead"><strong>We aim to make sure that everything you require from us is simple to get with no hassle</strong></p>
+      <a href="https://www.btplc.com/Thegroup/Ourcompany/Ourvalues/index.htm" class="btn btn-primary">Learn more</a>
+    </div>
+  </div>
+
+  <!--Main part of the homepage introducting data plan links-->
+  <!--Data Plan link-->
+
+  <h1 class="display-1" id="solo-title">Chatterbox</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <figure id="solo-image">
+          <img src="images\chatterbox-crop.jpeg" alt="A mature man laughing while talking on his phone." id="index-image" />
+          <figcaption id="description">From £14, get data, minutes and texts with alerts when you go over your limit each month.
+          </figcaption>
+        </figure>
+      </div>
+
+      <!--Data Plan Calculator-->
+      <!--Data + Price Buttons -->
+      <div class="col-md-2 solo-mobile">
+        <h2 class="solo-h2">Select Data</h2>
+        <p>
+          <button class="chatter--gb btn active" aria-pressed="true" data-chatter-gb="1GB" data-chatter-price="14.00" type="submit">1GB</button>
+        </p>
+
+        <p>
+          <button class="chatter--gb btn active" aria-pressed="true" data-chatter-gb="6GB" data-chatter-price="18.00" type="submit">6GB</button>
+        </p>
+
+        <p>
+          <button class="chatter--gb btn active"  aria-pressed="true" data-chatter-gb="10GB" data-chatter-price="20.00" type="submit">10GB</button>
+        </p>
+
+        <p>
+          <button class="chatter--gb btn active"  aria-pressed="true" data-chatter-gb="20GB" data-chatter-price="30.00" type="submit">20GB</button>
+        </p>
+      </div>
+
+      <div class="col-md-2 solo-mobile">
+
+        <!--Minutes Buttons-->
+        <h2 class="solo-h2">Select Minutes</h2>
+
+        <p>
+          <button class="chatter--mins btn active" aria-pressed="true" data-chatter-mins="180mins" data-chatter-mins-price="3.00" type="button">180 Mins</button>
+        </p>
+
+        <p>
+          <button class="chatter--mins btn active"  aria-pressed="true" data-chatter-mins="300mins" data-chatter-mins-price="5.00" type="button">300 Mins</button>
+        </p>
+
+        <p>
+          <button class="chatter--mins btn active"  aria-pressed="true" data-chatter-mins="600mins" data-chatter-mins-price="10.00" type="button">600 Mins</button>
+        </p>
+
+        <p>
+          <button class="chatter--mins btn active"  aria-pressed="true" data-chatter-mins="Unlimited" data-chatter-mins-price="12.00" type="button">Unlimited</button>
+        </p>
+      </div>
+
+      <div class="col-md-3">
+
+        <h2 class="solo-h2 solo-mobile-2">Monthly Cost: £<span id="chatter-cost-monthly"></span></h2>
+
+        <h2 class="solo-mobile-2">Annual Cost: £<span id="chatter-cost-annual"></span></h2>
+
+        <button type="button" class="btn btn-dash-primary btn-large" aria-pressed="true" id="solo-buy">Proceed to checkout</button>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Social Media Section-->
+  <div id="social">
+
+
+    <div id="social-buttons" class="container">
+      <a href="" class="btn btn-primary btn-lg btn-twitter">Twitter</a>
+      <a href="" class="btn btn-primary btn-lg btn-facebook">Facebook</a>
+      <a href="" class="btn btn-primary btn-lg btn-pinterest">Pinterest</a>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <div id="footer-background">
+    <footer id="footer" class="container">
+      <ul id="left-footer">
+        <li>
+          <a href="index.html">
+            <p>Home</p>
+          </a>
+        </li>
+        <li>
+          <p>
+            &#169; Copyright 2018
+          </p>
+        </li>
+        <li>
+          <a href="index.html">
+            <img src="images\bt-logo.png" alt="BT Company Logo." width="100" height="auto" />
+          </a>
+        </li>
+      </ul>
+
+      <ul id="right-footer">
+        <li>
+          <a href="#">
+            <p>Sitemap</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <p>Contact</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <p>Privacy</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <p>Terms Of Use</p>
+          </a>
+        </li>
+      </ul>
+
+
+    </footer>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+  <script src="js\calculator.js"></script>
+</body>
+
+</html>

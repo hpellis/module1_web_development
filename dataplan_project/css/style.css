@@ -1,0 +1,220 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#mission.jumbotron {
+  background-image: url(../images/water-banner.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  color: white;
+}
+
+/*Data plan links for the homepage*/
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#social {
+  clear: both;
+}
+
+figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  figure {
+    float: left;
+    margin: 15px;
+    max-width: 30%;
+  }
+}
+
+.plan-name {
+  text-align: center;
+  text-decoration: none;
+}
+
+.plan-name:hover {
+  text-decoration: none;
+  color: black;
+}
+
+figcaption {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
+/*Social Buttons Customisations*/
+.btn-twitter {
+  background-color: #1da1f2;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-pinterest {
+  background-color: #bd081c;
+}
+
+#social-buttons .btn-primary {
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-twitter:hover {
+  background-color: #1da1f2;
+}
+
+.btn-facebook:hover {
+  background-color: #3b5998;
+}
+
+.btn-pinterest:hover {
+  background-color: #bd081c;
+}
+
+#social {
+  background-color: #cdd0d6;
+}
+
+#social-buttons {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*Footer*/
+#footer-background {
+  background-color: #414244;
+  height: 200px;
+  padding-top: 20px;
+}
+
+#footer p {
+  color: #FFFFFF;
+}
+
+/*Left aligned text in the footer*/
+#left-footer {
+  float: left;
+  list-style-type: none;
+}
+
+/*Right aligned text in the footer*/
+#right-footer {
+  float: right;
+  list-style-type: none;
+}
+
+/*Edits for the Solo Surfer page*/
+#solo-title {
+  margin-bottom: 50px;
+}
+
+.solo-h2 {
+  margin-top: 20px;
+}
+
+#solo-image {
+  max-width: 100%;
+}
+
+.solo--price {
+  margin-top: 15px;
+  height: 40px;
+  width: 80px;
+}
+
+#solo-buy {
+  background-color: #153C7C;
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .solo-mobile-2 {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .solo-mobile {
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+
+  #solo-buy {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20px;
+  }
+
+  #social-buttons {
+    font-size: 10px;
+  }
+
+  .mobile-social {
+    display: block;
+    margin: 10px;
+  }
+}
+
+/*Edits for the Solo Surfer homepage*/
+.blue {
+  background-color: #8DADE0;
+}
+
+#description {
+  text-align: justify;
+}
+
+/*Edits for the chatterbox Page*/
+.chatter--gb {
+  margin-top: 15px;
+  height: 40px;
+  width: 80px;
+}
+
+.chatter--mins {
+  margin-top: 15px;
+  height: 40px;
+  width: 100px;
+}
+
+/*Edits for the Family page*/
+.family--sims {
+  margin-top: 15px;
+  height: 40px;
+  width: 80px;
+}
+
+.family--gb {
+  margin-top: 15px;
+  height: 40px;
+  width: 100px;
+}
